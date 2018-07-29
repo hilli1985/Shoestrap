@@ -1,0 +1,192 @@
+.col-1 {
+    float: left;
+    width: 8.33333333%;
+}
+
+.col-2 {
+    float: left;
+    width: 16.66666667%;
+}
+
+.col-3 {
+    float: left;
+    width: 25%;
+}
+
+.col-4 {
+    float: left;
+    width: 33.33333333%;
+}
+
+.col-5 {
+    float: left;
+    width: 41.66666667%;
+}
+
+.col-6 {
+    float: left;
+    width: 50%;
+}
+
+.col-7 {
+    float: left;
+    width: 58.33333333%;
+}
+
+.col-8 {
+    float: left;
+    width: 66.66666667%;
+}
+
+.col-9 {
+    float: left;
+    width: 75%;
+}
+
+.col-10 {
+    float: left;
+    width: 83.33333333%;
+}
+
+.col-11 {
+    float: left;
+    width: 91.66666667%;
+}
+
+.col-12 {
+    float: left;
+    width: 100%;
+}
+
+div {
+    height: 50px;
+    margin-bottom: 20px;
+    border: 5px;
+    /* border-color: red;
+    border-style: solid;
+    box-sizing: border-box; */
+}
+
+div h1 {
+    margin-left: 33.3333%;
+    margin-right: 33.3333%;
+    margin-top: 5%;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+}
+
+#luxury {
+    margin-left: 0%;
+    margin-top: 0%;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 4vh;
+    text-align: center;
+    color: white;
+    /* display: inline-block; */
+}
+
+#london {
+    margin-left: 4%;
+    margin-top: -3.5%;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 4vh;
+    text-align: center;
+    color: white;
+}
+
+.dot {
+    margin-left: 45%;
+    margin-top: 7%;
+    height: 25px;
+    width: 25px;
+    border-color: orangered;
+    border-radius: 50%;
+    border-style: solid;
+}
+
+#text-box {
+    margin-left: 0%;
+    margin-top: 0%;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 4vh;
+    text-align: center;
+    color: white;
+    /* display: inline-block; */
+}
+
+.div-icones {
+    width: 500px;
+    height: 160px;
+    border: 10px;
+    border-style: solid;
+    margin-left: 10%;
+}
+
+.section {
+    height: 400px;
+}
+
+#section-2 {
+    height: 600px;
+}
+
+.background-img1 {
+    background-image: url("https://www.myholidayguru.co.uk/wp-content/uploads/2017/10/Aerial-view-of-Tower-Bridgeand-City-Hall-in-London-iStock_000019380154_Large-2.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.row:before {
+    display: table;
+    content: "";
+}
+
+.row:after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.topnav a {
+    float: left;
+    color: #131010ea;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.home:hover {
+    background-color: white;
+}
+
+.topnav a.book-now {
+    color: orangered;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.topnav a.book-now:hover {
+    background-color: rgba(255, 192, 203, 0.315);
+}
+
+.p-text {}
